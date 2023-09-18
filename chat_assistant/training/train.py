@@ -516,8 +516,8 @@ def main(args):
     # Splitting the dataset
     train_size = 0.8  # 80% of the data
     eval_size = 1 - train_size  # 20% of the data
-
-    train_dataset, eval_dataset = train_test_split(dataset, train_size=train_size, test_size=eval_size)
+    # train_test_split(dataset, train_size=train_size, test_size=eval_size) ??? 
+    train_dataset, eval_dataset = dataset
 
 
 
